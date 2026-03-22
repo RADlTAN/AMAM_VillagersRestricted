@@ -1,0 +1,1 @@
+scoreboard objectives add amam--debug.main_toggle dummy

@@ -1,1 +1,1 @@
-give @p minecraft:enchanted_book[minecraft:max_stack_size=99,minecraft:custom_data={amam_summon:true},minecraft:item_model=knowledge_book,minecraft:consumable={consume_seconds:0,sound:"block.amethyst_block.break",animation:"eat",has_consume_particles:false},minecraft:enchantment_glint_override=true,minecraft:rarity=epic,minecraft:custom_name={"text":"Villager Tome","italic":false,"bold":true,"color":"gold","shadow_color":[0,0,0,1]},minecraft:lore=[{"text":"In case you really ARE"},{"text":"desperate to trade"}]]
+loot give @s loot amam:entities/villager_tome

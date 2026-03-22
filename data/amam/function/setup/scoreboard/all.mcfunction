@@ -1,0 +1,1 @@
+function amam:setup/scoreboard/objectives/debug

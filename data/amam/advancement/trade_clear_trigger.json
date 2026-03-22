@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": {
+                                    "Tags": [
+                                        "amam_origin"
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:villager"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "amam:trade_clear"
+    }
+}

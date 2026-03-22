@@ -1,0 +1,38 @@
+{
+    "type": "entity",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "max_stack_size": 99,
+                                "custom_data": {
+                                    "amam_summon": true
+                                },
+                                "item_model": "minecraft:knowledge_book",
+                                "consumable": {
+                                    "consume_seconds": 0,
+                                    "sound": "block.amethyst_block.break",
+                                    "animation": "eat",
+                                    "has_consume_particles": false
+                                },
+                                "minecraft:enchantment_glint_override": true,
+                                "rarity": "epic",
+                                "custom_name": {
+                                    "text":"Villager Tome","italic":false,"bold":true,"color":"gold","shadow_color":[0,0,0,1]
+                                },
+                                "minecraft:lore": ["In case you really ARE","desperate to trade"]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}
