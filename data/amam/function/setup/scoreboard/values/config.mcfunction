@@ -1,0 +1,1 @@
+scoreboard players set ::global amam--config.trade_clear_range 10

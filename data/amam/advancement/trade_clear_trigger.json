@@ -30,6 +30,6 @@
         }
     },
     "rewards": {
-        "function": "amam:trade_clear"
+        "function": "amam:trade_clear/macro_caller"
     }
 }

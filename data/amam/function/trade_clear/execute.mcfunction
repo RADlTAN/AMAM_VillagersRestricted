@@ -6,4 +6,4 @@ title @s actionbar {text:"You can't trade with this villager!",color:"yellow",it
 
 advancement revoke @s only amam:trade_clear_trigger
 
-execute as @e[type=villager,tag=!amam_origin,distance=..15] run data modify entity @s Brain set value {}
+$execute as @e[type=villager,tag=!amam_origin,distance=..$(trade_clear_range)] run data modify entity @s Brain set value {}

@@ -1,0 +1,1 @@
+scoreboard objectives add amam--config.trade_clear_range dummy
