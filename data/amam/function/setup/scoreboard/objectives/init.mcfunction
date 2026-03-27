@@ -1,0 +1,1 @@
+scoreboard objectives add amam--init.is_first_launch dummy
